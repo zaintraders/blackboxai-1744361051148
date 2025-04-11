@@ -1,0 +1,23 @@
+/* Additional Custom Styles for the Print On Demand website */
+/* Tailwind CSS is already included via CDN, so this file can be used for overrides or extra styling. */
+
+/* Example: Custom hover transitions for links */
+a:hover {
+  transition: opacity 0.3s ease-in-out;
+  opacity: 0.8;
+}
+
+/* Example: Make images responsive in case any get added */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Example: Adjust heading margins */
+h1, h2, h3, h4 {
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+
+/* Additional general styling can go here */
